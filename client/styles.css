@@ -12,13 +12,175 @@ h5 {
     color: black;
 }
 
+/* navbar */
+#navlogo {
+    
+     height: 7em;
+     width: 9em;
+     border-radius: 90%;
+     margin-top: 1.5em;
+     z-index: 1;
+     position: relative;
+     
+ }
+ .navbar-brand {
+     margin-right: 0;
+ }
+ 
+ /* #navbarSupportedContent {
+     padding-right: 0em;
+ } */
+ 
+ #nav {
+     background-image: url(images/woodgrain.jpg);
+     height: 5em;
+ }
+ 
+ a.nav-link {
+     font-size: 1.6em;
+     margin: .9em;    
+ }
+
+
+ #mainstory {
+     background-image: url(images/coupleinkitchen.jpg);
+     background-repeat: no-repeat;
+     height: 30em;
+     background-size: cover;
+     opacity: .5;
+     padding: 0;
+     margin: 0;
+     background-position: center;
+     z-index: -1;
+     position: relative;
+ }
+
+#mainstorytextbox {
+    font-weight: bold;
+    color:black;
+    z-index: 1;
+    position: relative; 
+    padding: 2em;
+}
+
+/* #mainstory {
+    position: relative;
+}
+
+#mainstory::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(images/coupleinkitchen.jpg);
+    opacity: .4;
+    content: "";
+    z-index: -1;
+    background-repeat: no-repeat;
+    height: 30em;
+    background-size: cover;
+} */
+
+#happyhour {
+    background-image: url(images/drinks.jpg);
+    background-repeat: no-repeat;
+    height: 30em;
+    background-size: cover;
+    /* opacity: .5; */
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    z-index: -1;
+    position: relative;
+    
+}
+
+#happyhourtextbox {
+   font-weight: bold;
+   color:white;
+   z-index: 1;
+   position: relative; 
+   padding: 2em;
+   opacity: 1;
+   display: inline-block;
+}
+
+#happyhourtextboxtwo {
+    font-weight: bold;
+    color:black;
+    z-index: 1;
+    position: relative; 
+    padding: 2em;
+    opacity: 1;
+    display: inline-block;
+    text-align: right;
+    margin-top: 8em;
+}
+
+
+ /* carousel */
 .caro-item {
     height: 50em;
     max-width: 100%;
     opacity: .5;
+    /* z-index: -1;
+    position: relative; */
 }
 
 .carousel-caption {
     top: 5em;
     position: absolute;
 }
+
+#carouselExampleIndicators {
+    z-index: -1;
+}
+
+
+/* carousel footer */
+#carouselfooter {
+    background-image: url(images/woodgrain.jpg);
+    height: 5em;
+
+
+}
+
+/* Homestory */
+#homestorybackground {
+    /* background-image: url(images/romaine.jpg); */
+   background-color: maroon;
+   
+}
+
+#homestory {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5em;
+    
+}
+
+/* contact links */
+#sociallinks {
+    background-color: black;
+    color: whitesmoke;
+}
+.slinks {
+   background-color: black;
+    display: inline-block;
+    padding: 2em;
+}
+.alink {
+    text-align: center;
+}
+
+/* Menu view */
+
+.menubar {
+    display: block;
+    clear: both;
+    position: fixed;
+    background-color: black;
+    color: whitesmoke;
+}
+ 
