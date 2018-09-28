@@ -14,27 +14,14 @@
 
 </head>
 <body>
-        <!-- <nav class="navbar navbar-dark bg-dark">
-                <div class="container-fluid">
-                  <div class="navbar-header">
-                    <a class="navbar-brand" href="#">WebSiteName</a>
-                  </div>
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Directions</a></li>
-                    <li><a href='#'>Contact Us</a></li>
-                  </ul>
-                </div>
-        </nav> -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
+        <div class="container-fluid" style="padding: 0em;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark row" id="nav">
                 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
               
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-collapse col-5" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <!-- <li class="nav-item">
                       <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
@@ -47,9 +34,9 @@
                     </li>      
                   </div>
                   
-                  <a class="navbar-brand" href="index.html"><img src="images/restlogo2.jpg" id="navlogo"></a>
+                  <a class="navbar-brand col-2" href="index.html"><img src="images/restlogo2.jpg" id="navlogo"></a>
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <div class="navbar-collapse col-5" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                       
                     <li class="nav-item">
@@ -79,42 +66,64 @@
                   </form> -->
                 </div>
               </nav>
-              
-        <!-- <h1> nav up top </h1>
-        <p>Upgrades include: </p>
-        <p>online ordering, link to dinner delivered service,</p>
-        <p>email sign up service, online payment capability,</p>
-        <p>blog, gallery, other locations</p>
-        <h1>Carosel Image here</h1>
-        <p>Happy People Eating</p>
-        <p>Specials</p> -->
+            </div>
+           
+     
+      
 
         <!-- <div ng-view></div> -->
 
-        <div class="jumbotron jumbotron-fluid" id="mainstory">
-             <div id="mainstorytextbox">
-              <h1>Our Story</h1>
-              <h2>Here are some details about it. We started with very humble beginings. We had many challenges along the way.</h2>
-              <h2>With some luck and hard work it came together. We've been humbled by the support of the community</h2> 
-             </div> 
+        <div class="container-fluid" id="mainmenu">
+            <div class="row" >
+              <div class="col" id="mainmenutextbox">
+                <!-- <h1 style="font-style: italic; transform: scale( 1, 1.8); margin-bottom: 1.5em; margin-top: 1em;">Our Menu</h1> -->
+                <h2 style="transform: scale( 1, 1.8); margin-top: 2em; letter-spacing: .08em;">Check out our creative dishes made with locally and sustainably sourced ingredients</h2>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="col"></div>
+              <a href="images/foodontable.jpg" role="button" class="btn btn-dark btn-lg col" style="padding: 1em; margin: 1em; opacity: .7;">Full Menu</a>
+              <div class="col"></div>
+            </div> 
+            
         </div>
 
-        <div class="jumbotron jumbo_text jumbotron-fluid" id="happyhour">
-          <div id="happyhourtextbox" class="d-block">
-            <h1>Happy Hour Specials</h1>
-            <h2>2-4PM</h2>
-          </div>
-          <div id="happyhourtextboxtwo" class="d-block"> 
-           <h2>Come enjoy our </h2><h2 style=" color: teal; font-style: italic; font-size: 2.5em; font-weight: 700; transform: scale( 1, 1.4)">Melt Your Blues Away Margarita</h2> 
-           <h2>        and socialize with us! </h2>
-           
-          </div> 
-     </div>
+
+        <div class="container-fluid" id="mainstory">
+              <div id="mainstorytextbox">
+                <h1 style="font-style: italic; transform: scale( 1, 1.8); margin-bottom: 1.5em; margin-top: 1em; letter-spacing: .1em;">Our Story</h1>
+                <h2 style="text-indent: .5em;">We are locally owned and operated. We started with very humble beginings. We had many challenges along the way. With some luck and hard work it came together. We are grateful to be able to share our passion for this amazing food with our neighbors. We've been humbled by the support of the community</h2>
+                
+                <a href="views/aboutus.html" role="button" class="btn btn-dark float-right">Read More</a>
+              </div> 
+            
+        </div>
+
+        <div class="container-fluid" id="happyhour">
+            <div class="row">
+              <div id="happyhourtextbox" >
+                <h1>Happy Hour Specials</h1>
+                <h2>2-4PM</h2>
+                <a href="views/menu.html" role="button" class="btn btn-light" style="opacity: .5;">Learn More</a>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-2"></div>
+              <div id="happyhourtextboxtwo" class="col-10"> 
+                <h2>Come enjoy our </h2><h2 style=" color: teal; font-style: italic; font-size: 2.5em; font-weight: 700; transform: scale( 1, 1.4)">Melt Your Blues Away Margarita</h2> 
+                <h2>        and socialize with us! </h2>
+                
+              </div> 
+            </div>
+        </div>
+        
+         
+    
 
 
 
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -151,41 +160,44 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
+          </div> -->
     
     
     <div id="carouselfooter">
     </div>    
     <div id="homestorybackground">
-      <div class="container" id="homestory">      
+      <!-- <div class="container" id="homestory">      
         <h1>Welcome to Our Restaurant</h1>
         <p>Here's a little bit about our story</p>
         <p>Mixed in with a few reasons why you should eat here</p>
-      </div>
+      </div> -->
 
 
 
           <div class="container" id="sociallinks">
-            <div class="slinks">
-              <h2>Follow:</h2>
-              <i class="fab fa-facebook-square"></i>
-              <i class="fab fa-instagram"></i>
-            </div>
-            <div class="slinks">
-              <h2>Email:</h2>
-              <i class="far fa-envelope"></i>
-            </div>
-            <div class="slinks">
-              <h2>Call:</h2>
-              <p>423-423-4000</p>
-            </div>
-            <div class="alink">
-              <h2>Visit:</h2>
-              <p>123 Main St</p>
-              <p>Chattanooga, TN 37421</p>
+            <div class="row">
+              <div class="slinks col-3">
+                <h2>Follow:</h2>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+              </div>
+              <div class="slinks col-3">
+                <h2>Email:</h2>
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="slinks col-3">
+                <h2>Call:</h2>
+                <p>423-423-4000</p>
+              </div>
+              <div class="slinks col-3">
+                <h2>Visit:</h2>
+                <p>123 Main St</p>
+                <p>Chattanooga, TN 37421</p>
+              </div>
+
             </div>
           </div>
-        </div>
+    </div>
         
     <script href="app.js"></script>
  

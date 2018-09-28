@@ -20,17 +20,13 @@ h5 {
      border-radius: 90%;
      margin-top: 1.5em;
      z-index: 1;
-     position: relative;
+     
      
  }
  .navbar-brand {
      margin-right: 0;
  }
- 
- /* #navbarSupportedContent {
-     padding-right: 0em;
- } */
- 
+   
  #nav {
      background-image: url(images/woodgrain.jpg);
      height: 5em;
@@ -41,13 +37,26 @@ h5 {
      margin: .9em;    
  }
 
+ /* @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  } */
 
+/* First Jumbotron Image */
  #mainstory {
-     background-image: url(images/coupleinkitchen.jpg);
+     background-image: url(images/coupleinkitchen.png);
      background-repeat: no-repeat;
      height: 30em;
      background-size: cover;
-     opacity: .5;
      padding: 0;
      margin: 0;
      background-position: center;
@@ -56,32 +65,16 @@ h5 {
  }
 
 #mainstorytextbox {
-    font-weight: bold;
     color:black;
+    opacity: .8;
     z-index: 1;
     position: relative; 
     padding: 2em;
-}
-
-/* #mainstory {
-    position: relative;
-}
-
-#mainstory::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url(images/coupleinkitchen.jpg);
-    opacity: .4;
-    content: "";
-    z-index: -1;
-    background-repeat: no-repeat;
     height: 30em;
-    background-size: cover;
-} */
+    
+}
 
+/* Second Jumbotron Image */
 #happyhour {
     background-image: url(images/drinks.jpg);
     background-repeat: no-repeat;
@@ -103,7 +96,7 @@ h5 {
    position: relative; 
    padding: 2em;
    opacity: 1;
-   display: inline-block;
+  
 }
 
 #happyhourtextboxtwo {
@@ -113,10 +106,35 @@ h5 {
     position: relative; 
     padding: 2em;
     opacity: 1;
-    display: inline-block;
-    text-align: right;
-    margin-top: 8em;
+    text-align: right; 
+    margin-top: 5em;
 }
+
+/* Third Jumbrotron Image */
+#mainmenu {
+    background-image: url(images/foodonatable.jpg);
+    background-repeat: no-repeat;
+    height: 30em;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    z-index: -1;
+    position: relative;
+    
+}
+
+#mainmenutextbox {
+   color:white;
+   opacity: .6;
+   z-index: 1;
+   position: relative; 
+   padding: 2em;
+   
+}
+
+
+
 
 
  /* carousel */
