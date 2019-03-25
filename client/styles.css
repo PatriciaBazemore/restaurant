@@ -60,7 +60,7 @@ h5 {
      padding: 0;
      margin: 0;
      background-position: center;
-     z-index: -1;
+     /* z-index: -1; */
      position: relative;
  }
 
@@ -84,7 +84,7 @@ h5 {
     padding: 0;
     margin: 0;
     background-position: center;
-    z-index: -1;
+    /* z-index: -1; */
     position: relative;
     
 }
@@ -131,6 +131,9 @@ h5 {
    position: relative; 
    padding: 2em;
    
+}
+#mainmenutextboxtwo {
+    z-index: 1;
 }
 
 
